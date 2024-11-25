@@ -53,7 +53,7 @@ const Navbar = () => {
           }}
         >
           <div className="h-12 w-12 bg-violet-800 rounded-full relative flex items-center justify-center">
-            <span className="absolute text-3xl font-semibold">J</span>
+            <span className="absolute text-3xl font-semibold">S</span>
           </div>
           <p className="text-white text-[18px] font-bold cursor-pointer flex ">
             Santiago &nbsp;
