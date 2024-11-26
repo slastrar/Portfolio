@@ -16,6 +16,9 @@ import {
   mysql,
   codeConnect,
   analitica,
+  poggio,
+  ngc2403,
+  armsm83
 } from '../assets';
 
 export const navLinks = [
@@ -163,77 +166,70 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Code Connect',
+    name: 'Star clusters',
     description:
-      'Code Connect is a social network tailored for developers, crafted as a part of my thesis project. This endeavor was developed using React with Redux and Redux Toolkit for the frontend, while the backend was implemented with Node.js, incorporating sockets for real-time communication. The objective behind Code Connect was to foster the creation of a community where developers could share knowledge and collaborate effectively on projects.',
+      "This repository is a little extract of my thesis, 'Identification of Star Clusters in Gaia DR3 to "+
+      "Correlate Them with the Spiral Arms of the Milky Way,' which presents a catalog of 534 star clusters " +
+      "identified using clustering algorithms like DBSCAN and pyUPMASK. Isochrone fitting determined parameters "+
+      "such as age, metallicity, and distance. The study highlights the correlation between young clusters and "+
+      "the Milky Way's spiral arms, showing high consistency with major catalogs. This entire process was carried "+
+      "out using Python, extracting data from a database containing over 7.1 billion records.",
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'Redux',
-        color: 'text-neutral-100',
-      },
-      {
-        name: 'Node - Express',
-        color: 'text-purple-600',
-      },
-      {
-        name: 'mongodb',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
+      // {
+      //   name: 'python',
+      //   color: 'blue-text-gradient',
+      // },
+      // {
+      //   name: 'Redux',
+      //   color: 'text-neutral-100',
+      // },
+      // {
+      //   name: 'Node - Express',
+      //   color: 'text-purple-600',
+      // },
+      // {
+      //   name: 'mongodb',
+      //   color: 'green-text-gradient',
+      // },
+      // {
+      //   name: 'tailwind',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: codeConnect,
-    source_code_link: 'https://github.com/',
+    image: poggio,
+    source_code_link: 'https://github.com/slastrar/Thesis-Catalogue',
   },
   {
-    name: 'Analitica',
+    name: 'Mass of Galaxy',
     description:
-      'Analitica was developed with the purpose of providing businesses with data organization capabilities. This platform allows businesses to input service data for each client, enabling them to visualize and analyze this data through various graphs. The goal is to derive intelligent insights and conclusions from the presented analytics, empowering businesses to make informed decisions based on the data collected.',
+      'In a university project, I calculated the mass of a galaxy using only its rotation curve. To do this, I '+
+      'implemented several astrophysical models in Python, combining theory and programming to tackle an interesting '+
+      'problem in astrophysics.',
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'tailwind',
-        color: 'pink-text-gradient',
-      },
-      {
-        name: 'React Query',
-        color: 'text-green-600',
-      },
-      {
-        name: 'Node - Express',
-        color: 'text-purple-600',
-      },
-      {
-        name: 'SQL',
-        color: 'text-yellow-600',
-      },
+      // {
+      //   name: 'python',
+      //   color: 'pink-text-gradient',
+      // },
     ],
-    image: analitica,
-    source_code_link: 'https://github.com/',
+    image: ngc2403,
+    source_code_link: 'https://github.com/slastrar/Mass-of-NGC2403',
   },
   {
-    name: 'Diverse Project Portfolio',
+    name: 'Arms of Galaxy',
 
     description:
-      'Throughout my career, I ve crafted a range of projects, from movie search engines to expense management apps and web platforms dedicated to organizing favorite book collections. These endeavors span from straightforward and practical solutions to more comprehensive applications, showcasing my ability to adapt to diverse needs and deliver effective solutions.',
+      'University project to map the arms of the M83 galaxy using Gaussian Mixture Models for pattern identification and '+
+      'advanced interpolation techniques from SciPy. The data was sourced from two different databases, and the '+
+      'correspondence of the stars in both datasets was analyzed.',
 
     tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
+      // {
+      //   name: 'react',
+      //   color: 'blue-text-gradient',
+      // },
     ],
-    image: '',
-    source_code_link: 'https://github.com/',
+    image: armsm83,
+    source_code_link: 'https://github.com/slastrar/M83-Galaxy-Arms/',
   },
 ];
 

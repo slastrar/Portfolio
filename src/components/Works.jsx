@@ -69,19 +69,26 @@ const Works = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
-          Throughout my career, I've tackled a range of projects, from
-          developing a specialized social network for developers to creating
-          simple yet highly functional web applications for personal expense
-          management. My versatile approach has enabled me to contribute to both
-          complex initiatives, implementing advanced features, and practical
-          solutions, prioritizing usability and efficiency for users of all
-          levels.
+          Throughout my career, I have undertaken numerous personal, academic, and 
+          professional projects. My expertise spans data collection and cleaning to
+          deriving meaningful conclusions. The projects highlighted below include both 
+          independent initiatives and academic collaborations, demonstrating my ability 
+          to manage and execute comprehensive data analysis processes.
         </motion.p>
       </div>
 
       <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+          <a
+          key={`project-${index}`}
+          href={project.source_code_link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block">
+            <ProjectCard index={index} {...project} />
+          </a>
+
+          
         ))}
       </div>
     </>

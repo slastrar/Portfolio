@@ -27,6 +27,9 @@ import tripguide from './tripguide.png';
 
 import codeConnect from './codeConnect.png';
 import analitica from './analitica.png';
+import poggio from './poggio.png';
+import ngc2403 from './ngc2403.jpg';
+import armsm83 from './armsM83.png';
 
 
 export {
@@ -54,5 +57,8 @@ export {
   mariadb,
   vue,
   react,
-  mysql
+  mysql,
+  poggio,
+  ngc2403,
+  armsm83
 };
