@@ -20,7 +20,6 @@ import vue from './tech/vue.png';
 import react from './tech/react.png';
 import mysql from './tech/mysql.png';
 
-
 import carrent from './carrent.png';
 import jobit from './jobit.png';
 import tripguide from './tripguide.png';
@@ -30,7 +29,9 @@ import analitica from './analitica.png';
 import poggio from './poggio.png';
 import ngc2403 from './ngc2403.jpg';
 import armsm83 from './armsM83.png';
-
+import stellarAssociation from './stellarAssociation.png';
+import wr124 from './wr124.png';
+import galaxyIsophotes from './galaxyIsophotes.png';
 
 export {
   logo,
@@ -60,5 +61,8 @@ export {
   mysql,
   poggio,
   ngc2403,
-  armsm83
+  armsm83,
+  stellarAssociation,
+  wr124,
+  galaxyIsophotes
 };

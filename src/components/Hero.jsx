@@ -6,6 +6,7 @@ import { TypeAnimation } from 'react-type-animation';
 import { SiGmail } from 'react-icons/si';
 import { FaGithub } from 'react-icons/fa';
 import { FaLinkedin } from 'react-icons/fa';
+import { FaKaggle } from 'react-icons/fa';
 
 import { Link } from 'react-router-dom';
 
@@ -53,11 +54,18 @@ const Hero = () => {
                 <FaGithub className="w-12 h-8 cursor-pointer" />
               </Link>
               <Link
-                to="https://www.linkedin.com/in/santiago-lastra"
+                to="https://www.linkedin.com/in/slastrar"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <FaLinkedin className="w-12 h-8 cursor-pointer" />
+              </Link>
+              <Link
+                to="https://www.kaggle.com/slastrar960"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaKaggle className="w-12 h-8 cursor-pointer" />
               </Link>
             </div>
           </div>
